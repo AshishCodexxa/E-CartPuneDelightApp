@@ -1,0 +1,4 @@
+com.punedelights.user.test.app-androidTest-0 C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\build\generated\res\resValues\androidTest\debug
+com.punedelights.user.test.app-mergeDebugAndroidTestResources-1 C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.punedelights.user.test.app-mergeDebugAndroidTestResources-2 C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.punedelights.user.test.app-merged_res-3 C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\build\intermediates\merged_res\debugAndroidTest

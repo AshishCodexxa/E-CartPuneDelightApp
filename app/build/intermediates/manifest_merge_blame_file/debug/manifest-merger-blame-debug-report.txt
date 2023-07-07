@@ -1,0 +1,1293 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.punedelights.user"
+4    android:versionCode="12"
+5    android:versionName="5.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission
+16-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:11:5-12:38
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:11:22-77
+18        android:maxSdkVersion="32" />
+18-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:12:9-35
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:13:5-65
+19-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:13:22-62
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:14:5-76
+20-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:14:22-74
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:15:5-17:40
+21-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:16:9-65
+22    <uses-permission
+22-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:18:5-20:36
+23        android:name="android.permission.CALL_PHONE"
+23-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:19:9-53
+24        android:required="false" />
+24-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:20:9-33
+25
+26    <uses-feature
+26-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:23:5-85
+27        android:name="android.hardware.camera2"
+27-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:23:19-58
+28        android:required="false" />
+28-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:23:59-83
+29
+30    <queries>
+30-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:25:5-31:15
+31        <intent>
+31-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:26:9-30:18
+32            <action
+32-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:27:13-29:44
+33                android:name="android.intent.action.TTS_SERVICE"
+33-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:28:17-65
+34                android:required="false" />
+34-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:29:17-41
+35        </intent>
+36        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+37        <package android:name="com.android.chrome" /> <!-- Added to check the default browser that will host the AuthFlow. -->
+37-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:11:9-54
+37-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:11:18-51
+38        <intent>
+38-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:13:9-17:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+39-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+40
+41            <data android:scheme="http" />
+41-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+41-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:11:9-17:18
+44            <action android:name="android.intent.action.VIEW" />
+44-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+44-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+45
+46            <data
+46-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+47                android:mimeType="*/*"
+48                android:scheme="*" />
+48-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+49        </intent>
+50        <intent>
+50-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:18:9-27:18
+51            <action android:name="android.intent.action.VIEW" />
+51-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+51-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+52
+53            <category android:name="android.intent.category.BROWSABLE" />
+53-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:17-78
+53-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:27-75
+54
+55            <data
+55-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+56                android:host="pay"
+56-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+57                android:mimeType="*/*"
+58                android:scheme="upi" />
+58-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+59        </intent>
+60        <intent>
+60-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:28:9-30:18
+61            <action android:name="android.intent.action.MAIN" />
+61-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:109:17-69
+61-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:109:25-66
+62        </intent>
+63        <intent>
+63-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:31:9-35:18
+64            <action android:name="android.intent.action.SEND" />
+64-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:46:13-65
+64-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:46:21-62
+65
+66            <data android:mimeType="*/*" />
+66-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+67        </intent>
+68        <intent>
+68-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:36:9-38:18
+69            <action android:name="rzp.device_token.share" />
+69-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:37:13-61
+69-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:37:21-58
+70        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+71        <package android:name="com.google.android.apps.maps" />
+71-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+71-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+72    </queries>
+73
+74    <uses-feature
+74-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:32:5-34:36
+75        android:name="android.hardware.camera"
+75-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:33:9-47
+76        android:required="false" />
+76-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:34:9-33
+77    <uses-feature
+77-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:35:5-37:36
+78        android:name="android.hardware.telephony"
+78-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:36:9-50
+79        android:required="false" />
+79-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:37:9-33
+80
+81    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+81-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:39:5-41:47
+81-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:40:9-57
+82
+83    <queries> <!-- List of apps which you want to support for Intent pay -->
+83-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:25:5-31:15
+84        <package android:name="com.google.android.apps.nbu.paisa.user" />
+84-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:43:9-74
+84-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:43:18-71
+85        <package android:name="com.phonepe.app" /> <!-- Specific intents you query for,             eg: for a custom share UI -->
+85-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:44:9-51
+85-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:44:18-48
+86        <intent>
+86-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:45:9-47:18
+87            <action android:name="android.intent.action.SEND" />
+87-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:46:13-65
+87-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:46:21-62
+88        </intent>
+89    </queries>
+90
+91    <uses-permission android:name="android.permission.VIBRATE" />
+91-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\Admin\.gradle\caches\transforms-3\9d139b6d6893be83c549a7218573c477\transformed\jetified-pinpad-1.0.4\AndroidManifest.xml:11:5-66
+91-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\Admin\.gradle\caches\transforms-3\9d139b6d6893be83c549a7218573c477\transformed\jetified-pinpad-1.0.4\AndroidManifest.xml:11:22-63
+92
+93    <uses-feature
+93-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+94        android:glEsVersion="0x00020000"
+94-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+95        android:required="true" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+95-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+96    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+96-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3a0ee48a0716c9a7f70dbd0d0e47581c\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+96-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Admin\.gradle\caches\transforms-3\3a0ee48a0716c9a7f70dbd0d0e47581c\transformed\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+97    <uses-permission android:name="android.permission.WAKE_LOCK" />
+97-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
+97-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
+98    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+98-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\ed75121e9a2cf8c5504d8a64c3bae6c4\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+98-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\ed75121e9a2cf8c5504d8a64c3bae6c4\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+99    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+99-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+99-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+100
+101    <permission
+101-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\361754d4f193379181cae5a8838ae661\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+102        android:name="com.punedelights.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+102-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\361754d4f193379181cae5a8838ae661\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+103        android:protectionLevel="signature" />
+103-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\361754d4f193379181cae5a8838ae661\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+104
+105    <uses-permission android:name="com.punedelights.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+105-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\361754d4f193379181cae5a8838ae661\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+105-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\361754d4f193379181cae5a8838ae661\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+106    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+107    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+107-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
+107-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:22-74
+108
+109    <application
+109-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:49:5-191:19
+110        android:name="com.punedelights.user.helper.ApiConfig"
+110-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:50:9-62
+111        android:allowBackup="true"
+111-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:12:9-35
+112        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+112-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\361754d4f193379181cae5a8838ae661\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+113        android:debuggable="true"
+114        android:extractNativeLibs="false"
+114-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:51:9-42
+115        android:icon="@mipmap/ic_launcher"
+115-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:52:9-43
+116        android:label="@string/app_name"
+116-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:53:9-41
+117        android:requestLegacyExternalStorage="true"
+117-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:54:9-52
+118        android:supportsRtl="true"
+118-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:55:9-35
+119        android:theme="@style/AppTheme"
+119-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:56:9-40
+120        android:usesCleartextTraffic="true" >
+120-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:57:9-44
+121        <activity
+121-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:60:9-63:56
+122            android:name="com.punedelights.user.activity.WelcomeActivity"
+122-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:61:13-74
+123            android:screenOrientation="portrait" />
+123-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:62:13-49
+124        <activity
+124-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:65:9-70:56
+125            android:name="com.punedelights.user.activity.PaymentActivity"
+125-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:67:13-74
+126            android:screenOrientation="portrait"
+126-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:68:13-49
+127            android:windowSoftInputMode="adjustPan|stateVisible" />
+127-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:69:13-65
+128        <activity
+128-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:72:9-76:56
+129            android:name="com.punedelights.user.activity.PayStackActivity"
+129-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:73:13-75
+130            android:screenOrientation="portrait"
+130-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:74:13-49
+131            android:windowSoftInputMode="adjustPan|stateVisible" />
+131-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:75:13-65
+132
+133        <provider
+134            android:name="androidx.core.content.FileProvider"
+134-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:79:13-62
+135            android:authorities="com.punedelights.user.provider"
+135-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:80:13-60
+136            android:exported="false"
+136-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:81:13-37
+137            android:grantUriPermissions="true" >
+137-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:82:13-47
+138            <meta-data
+138-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:83:13-85:58
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:84:17-67
+140                android:resource="@xml/provider_paths" />
+140-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:85:17-55
+141        </provider>
+142
+143        <activity
+143-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:88:9-93:56
+144            android:name="com.punedelights.user.activity.MainActivity"
+144-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:90:13-71
+145            android:screenOrientation="portrait"
+145-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:91:13-49
+146            android:windowSoftInputMode="adjustPan|stateVisible" />
+146-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:92:13-65
+147        <activity
+147-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:95:9-100:56
+148            android:name="com.punedelights.user.activity.LoginActivity"
+148-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:97:13-72
+149            android:screenOrientation="portrait"
+149-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:98:13-49
+150            android:windowSoftInputMode="adjustPan|stateVisible" />
+150-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:99:13-65
+151        <activity
+151-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:102:9-121:20
+152            android:name="com.punedelights.user.activity.SplashActivity"
+152-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:103:13-73
+153            android:exported="true"
+153-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:104:13-36
+154            android:screenOrientation="portrait"
+154-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:105:13-49
+155            android:windowSoftInputMode="adjustPan|stateVisible" >
+155-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:106:13-65
+156            <intent-filter>
+156-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:108:13-111:29
+157                <action android:name="android.intent.action.MAIN" />
+157-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:109:17-69
+157-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:109:25-66
+158
+159                <category android:name="android.intent.category.LAUNCHER" />
+159-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:110:17-77
+159-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:110:27-74
+160            </intent-filter>
+161            <intent-filter>
+161-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:13-120:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+162-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:17-76
+164-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:27-73
+165                <category android:name="android.intent.category.BROWSABLE" />
+165-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:17-78
+165-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:27-75
+166
+167                <data
+167-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+168                    android:host="ecartweb.thewrteam.in"
+168-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+169                    android:scheme="https" />
+169-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:123:9-125:58
+173            android:name="com.coursion.freakycoder.mediapicker.galleries.Gallery"
+173-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:124:13-82
+174            android:theme="@style/AppTheme.NoActionBar" />
+174-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:125:13-56
+175        <activity
+175-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:126:9-128:58
+176            android:name="com.coursion.freakycoder.mediapicker.galleries.OpenGallery"
+176-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:127:13-86
+177            android:theme="@style/AppTheme.NoActionBar" />
+177-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:128:13-56
+178        <activity
+178-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:130:9-134:56
+179            android:name="com.punedelights.user.activity.PayPalWebActivity"
+179-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:131:13-76
+180            android:screenOrientation="portrait"
+180-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:132:13-49
+181            android:windowSoftInputMode="adjustPan|stateVisible" />
+181-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:133:13-65
+182        <activity
+182-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:136:9-141:56
+183            android:name="com.punedelights.user.activity.MidtransActivity"
+183-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:138:13-75
+184            android:screenOrientation="portrait"
+184-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:139:13-49
+185            android:windowSoftInputMode="adjustPan|stateVisible" />
+185-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:140:13-65
+186        <activity
+186-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:143:9-148:56
+187            android:name="com.punedelights.user.activity.StripeActivity"
+187-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:145:13-73
+188            android:screenOrientation="portrait"
+188-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:146:13-49
+189            android:windowSoftInputMode="adjustPan|stateVisible" />
+189-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:147:13-65
+190
+191        <provider
+192            android:name="androidx.core.content.FileProvider"
+192-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:79:13-62
+193            android:authorities="com.punedelights.user.provider"
+193-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:80:13-60
+194            android:exported="false"
+194-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:81:13-37
+195            android:grantUriPermissions="true" >
+195-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:82:13-47
+196            <meta-data
+196-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:83:13-85:58
+197                android:name="android.support.FILE_PROVIDER_PATHS"
+197-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:84:17-67
+198                android:resource="@xml/provider_paths" />
+198-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:85:17-55
+199        </provider>
+200
+201        <service
+201-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:161:9-167:19
+202            android:name="com.punedelights.user.helper.MyFirebaseMessagingService"
+202-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:162:13-83
+203            android:exported="false" >
+203-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:163:13-37
+204            <intent-filter>
+204-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:164:13-166:29
+205                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+205-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:165:17-78
+205-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:165:25-75
+206            </intent-filter>
+207        </service>
+208
+209        <!--
+210     Set custom default icon. This is used when no icon is set for incoming notification messages.
+211     See README(https://goo.gl/l4GJaQ) for more.
+212        -->
+213        <meta-data
+213-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:171:9-173:68
+214            android:name="com.google.firebase.messaging.default_notification_icon"
+214-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:172:13-83
+215            android:resource="@drawable/ic_stat_ic_notification" />
+215-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:173:13-65
+216        <!--
+217             Set color used with incoming notification messages. This is used when no color is set for the incoming
+218             notification message. See README(https://goo.gl/6BKBk7) for more.
+219        -->
+220        <meta-data
+220-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:176:9-178:53
+221            android:name="com.google.firebase.messaging.default_notification_color"
+221-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:177:13-84
+222            android:resource="@color/colorAccent" />
+222-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:178:13-50
+223        <meta-data
+223-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:179:9-181:48
+224            android:name="com.google.firebase.messaging.default_notification_channel_id"
+224-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:180:13-89
+225            android:value="@string/app_name" />
+225-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:181:13-45
+226        <meta-data
+226-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:182:9-184:50
+227            android:name="android.app.searchable"
+227-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:183:13-50
+228            android:resource="@xml/searchable" />
+228-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:184:13-47
+229        <meta-data
+229-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:185:9-187:54
+230            android:name="com.google.android.geo.API_KEY"
+230-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:186:13-58
+231            android:value="@string/google_api_key" />
+231-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:187:13-51
+232        <meta-data
+232-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:188:9-190:69
+233            android:name="com.google.android.gms.version"
+233-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:189:13-58
+234            android:value="@integer/google_play_services_version" />
+234-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:190:13-66
+235
+236        <activity
+236-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:8:9-10:63
+237            android:name="co.paystack.android.ui.PinActivity"
+237-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:9:13-62
+238            android:theme="@style/Paystack.Dialog.PinEntry" />
+238-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:10:13-60
+239        <activity
+239-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:11:9-13:63
+240            android:name="co.paystack.android.ui.OtpActivity"
+240-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:12:13-62
+241            android:theme="@style/Paystack.Dialog.OtpEntry" />
+241-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:13:13-60
+242        <activity
+242-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:14:9-16:63
+243            android:name="co.paystack.android.ui.AuthActivity"
+243-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:15:13-63
+244            android:theme="@style/Paystack.Dialog.OtpEntry" />
+244-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:16:13-60
+245        <activity
+245-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:17:9-19:64
+246            android:name="co.paystack.android.ui.CardActivity"
+246-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:18:13-63
+247            android:theme="@style/Paystack.Dialog.CardEntry" />
+247-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:19:13-61
+248        <activity
+248-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:20:9-22:54
+249            android:name="co.paystack.android.ui.AddressVerificationActivity"
+249-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:21:13-78
+250            android:theme="@style/Paystack.Dialog" />
+250-->[co.paystack.android:paystack:3.3.2] C:\Users\Admin\.gradle\caches\transforms-3\e3cf16b7616cc034c031af41dc350bfa\transformed\jetified-paystack-3.3.2\AndroidManifest.xml:22:13-51
+251        <activity
+251-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:8:9-12:58
+252            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+252-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:9:13-80
+253            android:exported="false"
+253-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:10:13-37
+254            android:theme="@style/StripePaymentSheetDefaultTheme"
+254-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:11:13-66
+255            android:windowSoftInputMode="adjustResize" />
+255-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:12:13-55
+256        <activity
+256-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:13:9-17:58
+257            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+257-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:14:13-82
+258            android:exported="false"
+258-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:15:13-37
+259            android:theme="@style/StripePaymentSheetDefaultTheme"
+259-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:16:13-66
+260            android:windowSoftInputMode="adjustResize" />
+260-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:17:13-55
+261        <activity
+261-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:18:9-21:69
+262            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+262-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:19:13-97
+263            android:exported="false"
+263-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:20:13-37
+264            android:theme="@style/StripePaymentSheetDefaultTheme" />
+264-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:21:13-66
+265        <activity
+265-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:22:9-25:69
+266            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+266-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:23:13-105
+267            android:exported="false"
+267-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:24:13-37
+268            android:theme="@style/StripePaymentSheetDefaultTheme" />
+268-->[com.stripe:paymentsheet:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\8c609f52c8b42b8da6dce5f62862f268\transformed\jetified-paymentsheet-20.25.3\AndroidManifest.xml:25:13-66
+269        <activity
+269-->[com.stripe:link:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd214f7bd125a275ead25150ed8a530a\transformed\jetified-link-20.25.3\AndroidManifest.xml:8:9-13:58
+270            android:name="com.stripe.android.link.LinkActivity"
+270-->[com.stripe:link:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd214f7bd125a275ead25150ed8a530a\transformed\jetified-link-20.25.3\AndroidManifest.xml:9:13-64
+271            android:exported="false"
+271-->[com.stripe:link:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd214f7bd125a275ead25150ed8a530a\transformed\jetified-link-20.25.3\AndroidManifest.xml:10:13-37
+272            android:label="@string/stripe_link"
+272-->[com.stripe:link:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd214f7bd125a275ead25150ed8a530a\transformed\jetified-link-20.25.3\AndroidManifest.xml:11:13-48
+273            android:theme="@style/StripeLinkBaseTheme"
+273-->[com.stripe:link:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd214f7bd125a275ead25150ed8a530a\transformed\jetified-link-20.25.3\AndroidManifest.xml:12:13-55
+274            android:windowSoftInputMode="adjustResize" />
+274-->[com.stripe:link:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd214f7bd125a275ead25150ed8a530a\transformed\jetified-link-20.25.3\AndroidManifest.xml:13:13-55
+275        <activity
+275-->[com.stripe:payments-ui-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\934b777d2d5c21c20fa6db4a5697ef6d\transformed\jetified-payments-ui-core-20.25.3\AndroidManifest.xml:8:9-11:69
+276            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+276-->[com.stripe:payments-ui-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\934b777d2d5c21c20fa6db4a5697ef6d\transformed\jetified-payments-ui-core-20.25.3\AndroidManifest.xml:9:13-80
+277            android:exported="false"
+277-->[com.stripe:payments-ui-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\934b777d2d5c21c20fa6db4a5697ef6d\transformed\jetified-payments-ui-core-20.25.3\AndroidManifest.xml:10:13-37
+278            android:theme="@style/StripePaymentSheetDefaultTheme" />
+278-->[com.stripe:payments-ui-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\934b777d2d5c21c20fa6db4a5697ef6d\transformed\jetified-payments-ui-core-20.25.3\AndroidManifest.xml:11:13-66
+279        <activity
+279-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:15:9-18:57
+280            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+280-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:16:13-76
+281            android:exported="false"
+281-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:17:13-37
+282            android:theme="@style/StripeDefaultTheme" />
+282-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:18:13-54
+283        <activity
+283-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:19:9-22:57
+284            android:name="com.stripe.android.view.PaymentMethodsActivity"
+284-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:20:13-74
+285            android:exported="false"
+285-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:21:13-37
+286            android:theme="@style/StripeDefaultTheme" />
+286-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:22:13-54
+287        <activity
+287-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:23:9-26:57
+288            android:name="com.stripe.android.view.PaymentFlowActivity"
+288-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:24:13-71
+289            android:exported="false"
+289-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:25:13-37
+290            android:theme="@style/StripeDefaultTheme" />
+290-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:26:13-54
+291        <activity
+291-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:27:9-31:58
+292            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+292-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:28:13-78
+293            android:exported="false"
+293-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:29:13-37
+294            android:theme="@style/StripeDefaultTheme"
+294-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:30:13-54
+295            android:windowSoftInputMode="adjustResize" />
+295-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:31:13-55
+296        <activity
+296-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:32:9-35:61
+297            android:name="com.stripe.android.view.PaymentRelayActivity"
+297-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:33:13-72
+298            android:exported="false"
+298-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:34:13-37
+299            android:theme="@style/StripeTransparentTheme" />
+299-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:35:13-58
+300        <!--
+301        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+302        launched the browser Activity will also handle the return URL deep link.
+303        -->
+304        <activity
+304-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:41:9-45:61
+305            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+305-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:42:13-85
+306            android:exported="false"
+306-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:43:13-37
+307            android:launchMode="singleTask"
+307-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:44:13-44
+308            android:theme="@style/StripeTransparentTheme" />
+308-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:45:13-58
+309        <activity
+309-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:46:9-63:20
+310            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+310-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:47:13-88
+311            android:exported="true"
+311-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:48:13-36
+312            android:launchMode="singleTask"
+312-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:49:13-44
+313            android:theme="@style/StripeTransparentTheme" >
+313-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:50:13-58
+314            <intent-filter>
+314-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:51:13-62:29
+315                <action android:name="android.intent.action.VIEW" />
+315-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+315-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+316
+317                <category android:name="android.intent.category.DEFAULT" />
+317-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:17-76
+317-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:27-73
+318                <category android:name="android.intent.category.BROWSABLE" />
+318-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:17-78
+318-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:27-75
+319
+320                <!-- Must match `DefaultReturnUrl#value`. -->
+321                <data
+321-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+322                    android:host="payment_return_url"
+322-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+323                    android:path="/com.punedelights.user"
+324                    android:scheme="stripesdk" />
+324-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+325            </intent-filter>
+326        </activity>
+327        <activity
+327-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:64:9-67:57
+328            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+328-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:65:13-114
+329            android:exported="false"
+329-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:66:13-37
+330            android:theme="@style/StripeDefaultTheme" />
+330-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:67:13-54
+331        <activity
+331-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:68:9-71:66
+332            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+332-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:69:13-88
+333            android:exported="false"
+333-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:70:13-37
+334            android:theme="@style/StripeGooglePayDefaultTheme" />
+334-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:71:13-63
+335        <activity
+335-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:72:9-75:66
+336            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+336-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:73:13-90
+337            android:exported="false"
+337-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:74:13-37
+338            android:theme="@style/StripeGooglePayDefaultTheme" />
+338-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:75:13-63
+339        <activity
+339-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:76:9-79:66
+340            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+340-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:77:13-103
+341            android:exported="false"
+341-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:78:13-37
+342            android:theme="@style/StripeGooglePayDefaultTheme" />
+342-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:79:13-63
+343        <activity
+343-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:80:9-83:68
+344            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+344-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:81:13-107
+345            android:exported="false"
+345-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:82:13-37
+346            android:theme="@style/StripePayLauncherDefaultTheme" />
+346-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:83:13-65
+347        <activity
+347-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:84:9-87:61
+348            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+348-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:85:13-97
+349            android:exported="false"
+349-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:86:13-37
+350            android:theme="@style/StripeTransparentTheme" />
+350-->[com.stripe:payments-core:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\7f38f227470a55d4281848cca78ca2f4\transformed\jetified-payments-core-20.25.3\AndroidManifest.xml:87:13-58
+351        <activity
+351-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+352            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+352-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+353            android:excludeFromRecents="true"
+353-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+354            android:exported="true"
+354-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+355            android:launchMode="singleTask"
+355-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+356            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+356-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+357            <intent-filter>
+357-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+358                <action android:name="android.intent.action.VIEW" />
+358-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+358-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+359
+360                <category android:name="android.intent.category.DEFAULT" />
+360-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:17-76
+360-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:27-73
+361                <category android:name="android.intent.category.BROWSABLE" />
+361-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:17-78
+361-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:27-75
+362
+363                <data
+363-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+364                    android:host="firebase.auth"
+364-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+365                    android:path="/"
+366                    android:scheme="genericidp" />
+366-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+367            </intent-filter>
+368        </activity>
+369        <activity
+369-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+370            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+370-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+371            android:excludeFromRecents="true"
+371-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+372            android:exported="true"
+372-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+373            android:launchMode="singleTask"
+373-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+374            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+374-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+375            <intent-filter>
+375-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+376                <action android:name="android.intent.action.VIEW" />
+376-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+376-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+377
+378                <category android:name="android.intent.category.DEFAULT" />
+378-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:17-76
+378-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:27-73
+379                <category android:name="android.intent.category.BROWSABLE" />
+379-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:17-78
+379-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:27-75
+380
+381                <data
+381-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+382                    android:host="firebase.auth"
+382-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+383                    android:path="/"
+384                    android:scheme="recaptcha" />
+384-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+385            </intent-filter>
+386        </activity>
+387
+388        <service
+388-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
+389            android:name="com.google.firebase.components.ComponentDiscoveryService"
+389-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:67:13-84
+390            android:directBootAware="true"
+390-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+391            android:exported="false" >
+391-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+392            <meta-data
+392-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+393                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+393-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+394                android:value="com.google.firebase.components.ComponentRegistrar" />
+394-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Admin\.gradle\caches\transforms-3\a10f9212f0a9ae1ef5f5bdc5fead9eca\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+395            <meta-data
+395-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+396                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+396-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+397                android:value="com.google.firebase.components.ComponentRegistrar" />
+397-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+398            <meta-data
+398-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Admin\.gradle\caches\transforms-3\f12532994dc247b65e4b6649cdd6fe9a\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:17:13-19:85
+399                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+399-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Admin\.gradle\caches\transforms-3\f12532994dc247b65e4b6649cdd6fe9a\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:18:17-115
+400                android:value="com.google.firebase.components.ComponentRegistrar" />
+400-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\Admin\.gradle\caches\transforms-3\f12532994dc247b65e4b6649cdd6fe9a\transformed\jetified-firebase-crashlytics-18.3.7\AndroidManifest.xml:19:17-82
+401            <meta-data
+401-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\ed75121e9a2cf8c5504d8a64c3bae6c4\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+402                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+402-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\ed75121e9a2cf8c5504d8a64c3bae6c4\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+403                android:value="com.google.firebase.components.ComponentRegistrar" />
+403-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\ed75121e9a2cf8c5504d8a64c3bae6c4\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+404            <meta-data
+404-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Admin\.gradle\caches\transforms-3\31d1e58df22afdaca261193dfc37cc56\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+405                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+405-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Admin\.gradle\caches\transforms-3\31d1e58df22afdaca261193dfc37cc56\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+406                android:value="com.google.firebase.components.ComponentRegistrar" />
+406-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Admin\.gradle\caches\transforms-3\31d1e58df22afdaca261193dfc37cc56\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+407            <meta-data
+407-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Admin\.gradle\caches\transforms-3\ce37636f5e7e5cbc83ccbc1ab1a1f698\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+408                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+408-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Admin\.gradle\caches\transforms-3\ce37636f5e7e5cbc83ccbc1ab1a1f698\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+409                android:value="com.google.firebase.components.ComponentRegistrar" />
+409-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Admin\.gradle\caches\transforms-3\ce37636f5e7e5cbc83ccbc1ab1a1f698\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+410        </service>
+411
+412        <activity
+412-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:21:9-64:20
+413            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+413-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:22:13-109
+414            android:exported="true" >
+414-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:23:13-36
+415            <intent-filter>
+415-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:24:13-63:29
+416                <action android:name="android.intent.action.VIEW" />
+416-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:28-80
+416-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:112:36-77
+417
+418                <category android:name="android.intent.category.DEFAULT" />
+418-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:17-76
+418-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:114:27-73
+419                <category android:name="android.intent.category.BROWSABLE" />
+419-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:17-78
+419-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:115:27-75
+420
+421                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+422                <data
+422-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+423                    android:host="link-accounts"
+423-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+424                    android:pathPrefix="/com.punedelights.user/authentication_return"
+425                    android:scheme="stripe-auth" />
+425-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+426
+427                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+428                <data
+428-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+429                    android:host="link-native-accounts"
+429-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+430                    android:pathPrefix="/com.punedelights.user/authentication_return"
+431                    android:scheme="stripe-auth" />
+431-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+432
+433                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+434                <data
+434-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+435                    android:host="link-accounts"
+435-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+436                    android:path="/com.punedelights.user/success"
+437                    android:scheme="stripe-auth" />
+437-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+438                <data
+438-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+439                    android:host="link-accounts"
+439-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+440                    android:path="/com.punedelights.user/cancel"
+441                    android:scheme="stripe-auth" />
+441-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+442
+443                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+444                <data
+444-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+445                    android:host="native-redirect"
+445-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+446                    android:pathPrefix="/com.punedelights.user"
+447                    android:scheme="stripe-auth" />
+447-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+448
+449                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+450                <data
+450-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:117:17-119:46
+451                    android:host="auth-redirect"
+451-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:118:21-57
+452                    android:pathPrefix="/com.punedelights.user"
+453                    android:scheme="stripe" />
+453-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:119:21-43
+454            </intent-filter>
+455        </activity>
+456        <activity
+456-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:65:9-68:57
+457            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+457-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:66:13-101
+458            android:exported="false"
+458-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:67:13-37
+459            android:theme="@style/StripeDefaultTheme" />
+459-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:68:13-54
+460        <activity
+460-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:69:9-73:58
+461            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+461-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:70:13-110
+462            android:exported="false"
+462-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:71:13-37
+463            android:theme="@style/StripeDefaultTheme"
+463-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:72:13-54
+464            android:windowSoftInputMode="adjustResize" />
+464-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:73:13-55
+465
+466        <provider
+466-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:75:9-79:43
+467            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+467-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:76:13-114
+468            android:authorities="com.punedelights.user.financialconnections-init"
+468-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:77:13-77
+469            android:exported="false"
+469-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:78:13-37
+470            android:multiprocess="true" />
+470-->[com.stripe:financial-connections:20.25.3] C:\Users\Admin\.gradle\caches\transforms-3\cd2baf711b3c51c1687007f7efb06cbf\transformed\jetified-financial-connections-20.25.3\AndroidManifest.xml:79:13-40
+471
+472        <activity
+472-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\Admin\.gradle\caches\transforms-3\3d5a07adba8ef1e05629c1196f035f5a\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:8:9-11:54
+473            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+473-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\Admin\.gradle\caches\transforms-3\3d5a07adba8ef1e05629c1196f035f5a\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:9:13-81
+474            android:exported="false"
+474-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\Admin\.gradle\caches\transforms-3\3d5a07adba8ef1e05629c1196f035f5a\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:10:13-37
+475            android:theme="@style/Stripe3DS2Theme" />
+475-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\Admin\.gradle\caches\transforms-3\3d5a07adba8ef1e05629c1196f035f5a\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:11:13-51
+476        <activity
+476-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:15:9-19:55
+477            android:name="com.flutterwave.raveandroid.RavePayActivity"
+477-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:16:13-71
+478            android:label="@string/app_name"
+478-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:17:13-45
+479            android:screenOrientation="portrait"
+479-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:18:13-49
+480            android:windowSoftInputMode="adjustPan" />
+480-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:19:13-52
+481        <activity
+481-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:20:9-22:52
+482            android:name="com.flutterwave.raveandroid.verification.VerificationActivity"
+482-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:21:13-89
+483            android:screenOrientation="portrait" />
+483-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:22:13-49
+484        <activity
+484-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:23:9-25:52
+485            android:name="com.flutterwave.raveandroid.card.savedcards.SavedCardsActivity"
+485-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:24:13-90
+486            android:screenOrientation="portrait" />
+486-->[com.github.Flutterwave:rave-android:1.0.49.1] C:\Users\Admin\.gradle\caches\transforms-3\30740fec5b366030ac4f2dad5eebb74c\transformed\jetified-rave-android-1.0.49.1\AndroidManifest.xml:25:13-49
+487        <activity
+487-->[com.google.android.libraries.places:places:3.1.0] C:\Users\Admin\.gradle\caches\transforms-3\fefe09d4c7f518a4101187cccf4f0e84\transformed\jetified-places-3.1.0\AndroidManifest.xml:15:9-21:20
+488            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+488-->[com.google.android.libraries.places:places:3.1.0] C:\Users\Admin\.gradle\caches\transforms-3\fefe09d4c7f518a4101187cccf4f0e84\transformed\jetified-places-3.1.0\AndroidManifest.xml:16:13-91
+489            android:exported="false"
+489-->[com.google.android.libraries.places:places:3.1.0] C:\Users\Admin\.gradle\caches\transforms-3\fefe09d4c7f518a4101187cccf4f0e84\transformed\jetified-places-3.1.0\AndroidManifest.xml:17:13-37
+490            android:label="@string/places_autocomplete_label"
+490-->[com.google.android.libraries.places:places:3.1.0] C:\Users\Admin\.gradle\caches\transforms-3\fefe09d4c7f518a4101187cccf4f0e84\transformed\jetified-places-3.1.0\AndroidManifest.xml:18:13-62
+491            android:theme="@style/PlacesAutocompleteOverlay"
+491-->[com.google.android.libraries.places:places:3.1.0] C:\Users\Admin\.gradle\caches\transforms-3\fefe09d4c7f518a4101187cccf4f0e84\transformed\jetified-places-3.1.0\AndroidManifest.xml:19:13-61
+492            android:windowSoftInputMode="adjustResize" >
+492-->[com.google.android.libraries.places:places:3.1.0] C:\Users\Admin\.gradle\caches\transforms-3\fefe09d4c7f518a4101187cccf4f0e84\transformed\jetified-places-3.1.0\AndroidManifest.xml:20:13-55
+493        </activity>
+494
+495        <receiver
+495-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:42:9-49:20
+496            android:name="com.razorpay.RzpTokenReceiver"
+496-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:43:13-57
+497            android:exported="true" >
+497-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:44:13-36
+498            <intent-filter>
+498-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:46:13-48:29
+499                <action android:name="rzp.device_token.share" />
+499-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:37:13-61
+499-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:37:21-58
+500            </intent-filter>
+501        </receiver>
+502
+503        <activity
+503-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:51:9-59:20
+504            android:name="com.razorpay.CheckoutActivity"
+504-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:52:13-57
+505            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+505-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:53:13-83
+506            android:exported="true"
+506-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:54:13-36
+507            android:theme="@style/CheckoutTheme" >
+507-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:55:13-49
+508            <intent-filter>
+508-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:56:13-58:29
+509                <action android:name="android.intent.action.MAIN" />
+509-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:109:17-69
+509-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:109:25-66
+510            </intent-filter>
+511        </activity>
+512
+513        <meta-data
+513-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:61:9-63:58
+514            android:name="com.razorpay.plugin.googlepay_all"
+514-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:62:13-61
+515            android:value="com.razorpay.RzpGpayMerged" />
+515-->[com.razorpay:checkout:1.6.31] C:\Users\Admin\.gradle\caches\transforms-3\dc6c26cccf288b053136fbcc035d0bfe\transformed\jetified-checkout-1.6.31\AndroidManifest.xml:63:13-55
+516
+517        <activity
+517-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+518            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+518-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+519            android:excludeFromRecents="true"
+519-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+520            android:exported="false"
+520-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+521            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+521-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+522        <!--
+523            Service handling Google Sign-In user revocation. For apps that do not integrate with
+524            Google Sign-In, this service will never be started.
+525        -->
+526        <service
+526-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+527            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+527-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+528            android:exported="true"
+528-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+529            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+529-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+530            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+530-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Admin\.gradle\caches\transforms-3\29ef22d26bb70719b5d921aa5ea357ac\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+531        <uses-library
+531-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+532            android:name="org.apache.http.legacy"
+532-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+533            android:required="false" />
+533-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\357996b2b1411e0ca334d160fc08b6fa\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+534
+535        <receiver
+535-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+536            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+536-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+537            android:exported="true"
+537-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+538            android:permission="com.google.android.c2dm.permission.SEND" >
+538-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+539            <intent-filter>
+539-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+540                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+540-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+540-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+541            </intent-filter>
+542        </receiver>
+543        <!--
+544             FirebaseMessagingService performs security checks at runtime,
+545             but set to not exported to explicitly avoid allowing another app to call it.
+546        -->
+547        <service
+547-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+548            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+548-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+549            android:directBootAware="true"
+549-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+550            android:exported="false" >
+550-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Admin\.gradle\caches\transforms-3\db205aa00cd50a2d32df4c0eb40b6603\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+551            <intent-filter android:priority="-500" >
+551-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:164:13-166:29
+552                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+552-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:165:17-78
+552-->C:\Codexxa's Projects\E - CART PROJECT\eCart Android\eCart Single Vendor Customer App\app\src\main\AndroidManifest.xml:165:25-75
+553            </intent-filter>
+554        </service>
+555
+556        <activity
+556-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\48ca8bf6100a85065688f83a90059425\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+557            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+557-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\48ca8bf6100a85065688f83a90059425\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+558            android:exported="false"
+558-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\48ca8bf6100a85065688f83a90059425\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+559            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+559-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\48ca8bf6100a85065688f83a90059425\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+560
+561        <provider
+561-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+562            android:name="com.google.firebase.provider.FirebaseInitProvider"
+562-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+563            android:authorities="com.punedelights.user.firebaseinitprovider"
+563-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+564            android:directBootAware="true"
+564-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+565            android:exported="false"
+565-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+566            android:initOrder="100" />
+566-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Admin\.gradle\caches\transforms-3\f7d32d7e192a1eed01b26614ef5eac98\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+567
+568        <receiver
+568-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+569            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+569-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+570            android:enabled="true"
+570-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+571            android:exported="false" >
+571-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+572        </receiver>
+573
+574        <service
+574-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+575            android:name="com.google.android.gms.measurement.AppMeasurementService"
+575-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+576            android:enabled="true"
+576-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+577            android:exported="false" />
+577-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+578        <service
+578-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+579            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+579-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+580            android:enabled="true"
+580-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+581            android:exported="false"
+581-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+582            android:permission="android.permission.BIND_JOB_SERVICE" />
+582-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Admin\.gradle\caches\transforms-3\77cb37e8ae9b689446dc631ff7d991d7\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+583
+584        <provider
+584-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+585            android:name="androidx.startup.InitializationProvider"
+585-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+586            android:authorities="com.punedelights.user.androidx-startup"
+586-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+587            android:exported="false" >
+587-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+588            <meta-data
+588-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+589                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+589-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+590                android:value="androidx.startup" />
+590-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\c7acb561b7fe33f5786efa68ead8430f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+591            <meta-data
+591-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Admin\.gradle\caches\transforms-3\ee43088a258c8dc4f783b88a218201fa\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+592                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+592-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Admin\.gradle\caches\transforms-3\ee43088a258c8dc4f783b88a218201fa\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+593                android:value="androidx.startup" />
+593-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Admin\.gradle\caches\transforms-3\ee43088a258c8dc4f783b88a218201fa\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+594            <meta-data
+594-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+595                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+596                android:value="androidx.startup" />
+596-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+597        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
+598        <activity
+598-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+599            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+599-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+600            android:enabled="false"
+600-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+601            android:exported="false"
+601-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+602            android:launchMode="singleInstance"
+602-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+603            android:process=":playcore_missing_splits_activity"
+603-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+604            android:stateNotNeeded="true" />
+604-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+605        <activity
+605-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+606            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+606-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+607            android:exported="false"
+607-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+608            android:stateNotNeeded="true"
+608-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+609            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+609-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+610        <service
+610-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+611            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+611-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+612            android:enabled="false"
+612-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+613            android:exported="true" >
+613-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+614            <meta-data
+614-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+615                android:name="com.google.android.play.core.assetpacks.versionCode"
+615-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+616                android:value="11003" />
+616-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+617        </service>
+618        <service
+618-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+619            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+619-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+620            android:enabled="false"
+620-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+621            android:exported="false" />
+621-->[com.google.android.play:core:1.10.3] C:\Users\Admin\.gradle\caches\transforms-3\7238a379d0ff1c7d5e8f301115d4e8e3\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+622
+623        <activity
+623-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:14:9-17:47
+624            android:name="com.paytm.pgsdk.PaytmPGActivity"
+624-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:15:13-59
+625            android:screenOrientation="portrait"
+625-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:16:13-49
+626            android:theme="@style/AppTheme" />
+626-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:17:13-44
+627
+628        <service
+628-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:19:9-21:40
+629            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+629-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:20:13-73
+630            android:exported="false" />
+630-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:21:13-37
+631        <service
+631-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:22:9-24:40
+632            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+632-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:23:13-72
+633            android:exported="false" />
+633-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:24:13-37
+634        <service
+634-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:25:9-28:39
+635            android:name="com.paytm.pgsdk.easypay.utils.EasypayLoaderService"
+635-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:26:13-78
+636            android:enabled="true"
+636-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:27:13-35
+637            android:exported="true" />
+637-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:28:13-36
+638        <service
+638-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:29:9-32:39
+639            android:name="com.paytm.pgsdk.easypay.utils.AnalyticsService"
+639-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:30:13-74
+640            android:enabled="true"
+640-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:31:13-35
+641            android:exported="true" />
+641-->[com.paytm:pgplussdk:1.4.4] C:\Users\Admin\.gradle\caches\transforms-3\c6ffb95ad6ddd2589d83db03ebb92d34\transformed\jetified-pgplussdk-1.4.4\AndroidManifest.xml:32:13-36
+642
+643        <activity
+643-->[:sslmodule:] C:\Users\Admin\.gradle\caches\transforms-3\d18bf1d501e8f3005af3f264ef2ebcb6\transformed\jetified-sslmodule\AndroidManifest.xml:15:9-17:52
+644            android:name="com.sslcommerz.library.payment.view.activity.SSLCommerzHomePageActivity"
+644-->[:sslmodule:] C:\Users\Admin\.gradle\caches\transforms-3\d18bf1d501e8f3005af3f264ef2ebcb6\transformed\jetified-sslmodule\AndroidManifest.xml:16:13-99
+645            android:screenOrientation="portrait" />
+645-->[:sslmodule:] C:\Users\Admin\.gradle\caches\transforms-3\d18bf1d501e8f3005af3f264ef2ebcb6\transformed\jetified-sslmodule\AndroidManifest.xml:17:13-49
+646        <activity
+646-->[:sslmodule:] C:\Users\Admin\.gradle\caches\transforms-3\d18bf1d501e8f3005af3f264ef2ebcb6\transformed\jetified-sslmodule\AndroidManifest.xml:18:9-20:52
+647            android:name="com.sslcommerz.library.payment.view.activity.BankPageActivity"
+647-->[:sslmodule:] C:\Users\Admin\.gradle\caches\transforms-3\d18bf1d501e8f3005af3f264ef2ebcb6\transformed\jetified-sslmodule\AndroidManifest.xml:19:13-89
+648            android:screenOrientation="portrait" />
+648-->[:sslmodule:] C:\Users\Admin\.gradle\caches\transforms-3\d18bf1d501e8f3005af3f264ef2ebcb6\transformed\jetified-sslmodule\AndroidManifest.xml:20:13-49
+649
+650        <service
+650-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\5d4c5e174d3de561719263a4b37f2eae\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+651            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+651-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\5d4c5e174d3de561719263a4b37f2eae\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+652            android:exported="false" >
+652-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\5d4c5e174d3de561719263a4b37f2eae\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+653            <meta-data
+653-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\5d4c5e174d3de561719263a4b37f2eae\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+654                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+654-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\5d4c5e174d3de561719263a4b37f2eae\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+655                android:value="cct" />
+655-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\5d4c5e174d3de561719263a4b37f2eae\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+656        </service>
+657        <service
+657-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+658            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+658-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+659            android:exported="false"
+659-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+660            android:permission="android.permission.BIND_JOB_SERVICE" >
+660-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+661        </service>
+662
+663        <receiver
+663-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+664            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+664-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+665            android:exported="false" />
+665-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Admin\.gradle\caches\transforms-3\792d98801984691ee8d69803bad3fdd9\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+666
+667        <provider
+667-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\389c70561d201370988dfb66e4639a7c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+668            android:name="com.squareup.picasso.PicassoProvider"
+668-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\389c70561d201370988dfb66e4639a7c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+669            android:authorities="com.punedelights.user.com.squareup.picasso"
+669-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\389c70561d201370988dfb66e4639a7c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+670            android:exported="false" />
+670-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-3\389c70561d201370988dfb66e4639a7c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+671
+672        <receiver
+672-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+673            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+673-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+674            android:directBootAware="false"
+674-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+675            android:enabled="true"
+675-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+676            android:exported="true"
+676-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+677            android:permission="android.permission.DUMP" >
+677-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+678            <intent-filter>
+678-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+679                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+679-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+679-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+680            </intent-filter>
+681            <intent-filter>
+681-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+682                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+682-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+682-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+683            </intent-filter>
+684            <intent-filter>
+684-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+685                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+685-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+685-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+686            </intent-filter>
+687            <intent-filter>
+687-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+688                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+688-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+688-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Admin\.gradle\caches\transforms-3\5fb8648add91443ca8948c15d25badbd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+689            </intent-filter>
+690        </receiver>
+691
+692        <meta-data
+692-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\f901f72799e92de6eb6855a4b39c0b08\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+693            android:name="aia-compat-api-min-version"
+693-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\f901f72799e92de6eb6855a4b39c0b08\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54
+694            android:value="1" />
+694-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\f901f72799e92de6eb6855a4b39c0b08\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+695    </application>
+696
+697</manifest>

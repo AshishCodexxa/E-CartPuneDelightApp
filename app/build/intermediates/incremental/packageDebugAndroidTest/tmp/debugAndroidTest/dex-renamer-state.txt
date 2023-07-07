@@ -1,0 +1,7 @@
+#Fri Jul 07 10:46:03 IST 2023
+base.0=C\:\\Codexxa's Projects\\E - CART PROJECT\\eCart Android\\eCart Single Vendor Customer App\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=C\:\\Codexxa's Projects\\E - CART PROJECT\\eCart Android\\eCart Single Vendor Customer App\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\10\\classes.dex
+path.0=0/classes.dex
+path.1=10/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

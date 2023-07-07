@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.punedelights.user.app-mergeDebugResources-4:/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\e3cf16b7616cc034c031af41dc350bfa\\transformed\\jetified-paystack-3.3.2\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,64",
+                        "endOffsets": "108,173"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -20,13 +20,14 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="170dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_below="@id/toolbar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/logo_login"
+        android:src="@drawable/logo"
+        android:paddingBottom="15dp"
         tools:ignore="ImageContrastCheck" />
 
     <!--Login lyt-->
@@ -41,6 +42,7 @@
         android:visibility="gone">
 
         <LinearLayout
+            android:paddingTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -207,7 +209,7 @@
                     app:ccp_clickable="true"
                     app:ccp_showArrow="false"
                     app:ccp_showNameCode="false"
-                    app:ccp_textSize="@dimen/_10ssp" />
+                    app:ccp_textSize="@dimen/_9ssp" />
 
                 <View
                     android:layout_width="1.5dp"

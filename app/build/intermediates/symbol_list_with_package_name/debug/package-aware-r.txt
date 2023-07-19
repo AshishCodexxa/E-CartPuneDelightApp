@@ -5099,6 +5099,7 @@ drawable layout_shadow
 drawable left_arrow
 drawable left_btn_bg
 drawable login_curve
+drawable logo
 drawable logo_login
 drawable m3_appbar_background
 drawable m3_avd_hide_password

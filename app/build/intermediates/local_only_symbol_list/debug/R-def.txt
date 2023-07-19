@@ -232,6 +232,7 @@ drawable intro_b
 drawable intro_c
 drawable left_btn_bg
 drawable login_curve
+drawable logo
 drawable logo_login
 drawable offer_placeholder
 drawable placeholder
